@@ -18,7 +18,7 @@ ${CODE}      52110
 ${Number}    0987654321
 *** Keywords ***
 Click Products Page
-    Click Button    //*[@id="header"]/div/div/div/div[2]/div/ul/li[2]/a
+    Click Element    //*[@id="header"]/div/div/div/div[2]/div/ul/li[2]/a
 
 Input Search
     [Arguments]    ${SEARCH}
