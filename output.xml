@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-28T12:51:45.107618" rpa="false" schemaversion="5">
+<suite id="s1" name="New" source="d:\lab_year2\Test\swag\new.robot">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2025-01-28T12:51:45.514846" level="INFO">Opening browser 'gc' to base url 'https://www.saucedemo.com/v1/'.</msg>
+<arg>https://www.saucedemo.com/v1/</arg>
+<arg>gc</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-28T12:51:45.514344" elapsed="2.133854"/>
+</kw>
+<test id="s1-t1" name="Test Value Login" line="24">
+<kw name="Input Username">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-28T12:51:47.652972" level="INFO">Typing text 'problem_user' into text field '//*[@id="user-name"]'.</msg>
+<arg>//*[@id="user-name"]</arg>
+<arg>${USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-28T12:51:47.652019" elapsed="0.171388"/>
+</kw>
+<arg>${USERNAME}</arg>
+<status status="PASS" start="2025-01-28T12:51:47.650869" elapsed="0.172908"/>
+</kw>
+<kw name="Input Password">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-28T12:51:47.825891" level="INFO">Typing text 'secret_sauce' into text field '//*[@id="password"]'.</msg>
+<arg>//*[@id="password"]</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-28T12:51:47.825442" elapsed="0.135473"/>
+</kw>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2025-01-28T12:51:47.824585" elapsed="0.136638"/>
+</kw>
+<kw name="Click Login Button">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-01-28T12:51:47.962698" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
+<arg>//*[@id="login-button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-28T12:51:47.962359" elapsed="0.288245"/>
+</kw>
+<status status="PASS" start="2025-01-28T12:51:47.961840" elapsed="0.289039"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Products</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2025-01-28T12:51:48.251614" elapsed="0.033351"/>
+</kw>
+<status status="PASS" start="2025-01-28T12:51:47.648774" elapsed="0.637164"/>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-01-28T12:51:48.288768" elapsed="2.183083"/>
+</kw>
+<status status="PASS" start="2025-01-28T12:51:45.114388" elapsed="5.357786"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="New" id="s1" pass="1" fail="0" skip="0">New</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
