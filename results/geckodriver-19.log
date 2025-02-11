@@ -1,0 +1,39 @@
+1739248273876	geckodriver	INFO	Listening on 127.0.0.1:56699
+1739248276920	mozrunner::runner	INFO	Running command: "C:\\Users\\Netiphong_\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-por ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NETIPH~1\\AppData\\Local\\Temp\\rust_mozprofileIfRqi1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739248277406	Marionette	INFO	Marionette enabled
+1739248277548	Marionette	INFO	Listening on port 56719
+WebDriver BiDi listening on ws://127.0.0.1:56700
+Read port: 56719
+1739248277861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56700/devtools/browser/d1a87be8-4e35-4015-8316-a94ce73456aa
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 863 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 7064 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: resource://gre/actors/FormHandlerChild.sys.mjs, line 103: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'FormHandler' has been destroyed
+1739248295839	Marionette	INFO	Stopped listening on port 56719
+JavaScript warning: https://fundingchoicesmessages.google.com/i/ca-pub-1677597403311019?href=https%3A%2F%2Fautomationexercise.com%2Fsignup&ers=2, line 3: Script terminated by timeout at:
+_._F_toggles_initialize@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.th.L7ISxYa1gzc.es5.O/d=1/rs=AJlcJMxGvo5PZEgsFYqSwF34AAU9g7DDhA/m=kernel_loader,loader_js_executable:3:134
+@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.th.L7ISxYa1gzc.es5.O/d=1/rs=AJlcJMxGvo5PZEgsFYqSwF34AAU9g7DDhA/m=kernel_loader,loader_js_executable:3:163
+@/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingResponseClientJs.th.L7ISxYa1gzc.es5.O/d=1/rs=AJlcJMxGvo5PZEgsFYqSwF34AAU9g7DDhA/m=kernel_loader,loader_js_executable:466:4
+
+JavaScript warning: https://www.google.com/recaptcha/api2/aframe, line 1: Script terminated by timeout at:
+@https://www.google.com/recaptcha/api2/aframe:1:741
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js, line 2: Script terminated by timeout at:
+U@https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js:2:126
+@https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js:2:521
+@https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js:2:650
+@https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js:8:53988
+
+Dynamically enable window occlusion 1

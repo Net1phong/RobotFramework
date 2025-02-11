@@ -1,0 +1,47 @@
+1739249241619	geckodriver	INFO	Listening on 127.0.0.1:57858
+1739249244708	mozrunner::runner	INFO	Running command: "C:\\Users\\Netiphong_\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-por ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\NETIPH~1\\AppData\\Local\\Temp\\rust_mozprofilePH4GIY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1739249245149	Marionette	INFO	Marionette enabled
+1739249245385	Marionette	INFO	Listening on port 57876
+WebDriver BiDi listening on ws://127.0.0.1:57859
+Read port: 57876
+1739249245773	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57859/devtools/browser/68e8f763-4134-412d-8f14-b3a69eba1e33
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval line 3217 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
+@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval line 3217 > eval line 1 > eval line 1 > eval:1:31
+S3@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:22426
+b.U</<@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:50272
+rW@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:31995
+HB@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:14073
+S@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:7103
+OH@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:23678
+w@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:21152
+xu.GMf_@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:53263
+Vh@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:1515
+v_@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:34338
+Ve@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:18637
+j3@https://pagead2.googlesyndication.com/bg/CFqbMk23smrxp6r2U4Pu9eSqBipA3aIoMSPCl0KJ6rU.js line 2 > eval:3217:21918
+Pa/<@https://googleads.g.doubleclick.net/pagead/html/r20250206/r20190131/zrt_lookup_fy2021.html#RS-0-&adk=1812271801&client=ca-pub-1677597403311019&fa=1&ifi=4&uci=a!4&btvi=2:20:9930
+Ua@https://googleads.g.doubleclick.net/pagead/html/r20250206/r20190131/zrt_lookup_fy2021.html#RS-0-&adk=1812271801&client=ca-pub-1677597403311019&fa=1&ifi=4&uci=a!4&btvi=2:20:10111
+Pa@https://googleads.g.doubleclick.net/pagead/html/r20250206/r20190131/zrt_lookup_fy2021.html#RS-0-&adk=1812271801&client=ca-pub-1677597403311019&fa=1&ifi=4&uci=a!4&btvi=2:20:9920
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 260 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://automationexercise.com/static/js/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 7220 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: resource://gre/actors/FormHandlerChild.sys.mjs, line 103: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'FormHandler' has been destroyed
+JavaScript warning: https://pagead2.googlesyndication.com/bg/VPXMjhhSnF_0w04UBhtYgswssitSTY9737JJt5i4JB8.js line 2 > eval line 2765 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+console.warn: FormAutofillSection: isRecordCreatable: Country not supported: INDIA
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationexercise.com."
+1739249265136	Marionette	INFO	Stopped listening on port 57876
+Dynamically enable window occlusion 1
