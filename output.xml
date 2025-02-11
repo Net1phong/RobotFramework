@@ -1,135 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-02-11T10:35:52.968420" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-02-11T11:06:03.442408" rpa="false" schemaversion="5">
 <suite id="s1" name="Product" source="d:\lab_year2\RobotFramework\product.robot">
 <kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
-<msg time="2025-02-11T10:35:53.319392" level="INFO">Opening browser 'gc' to base url 'https://automationexercise.com/'.</msg>
+<msg time="2025-02-11T11:06:03.769875" level="INFO">Opening browser 'firefox' to base url 'https://automationexercise.com/'.</msg>
 <arg>https://automationexercise.com/</arg>
-<arg>gc</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-02-11T10:35:53.319077" elapsed="14.937367"/>
+<status status="PASS" start="2025-02-11T11:06:03.769550" elapsed="9.088953"/>
 </kw>
-<test id="s1-t1" name="Test Value" line="91">
+<test id="s1-t1" name="Test Value" line="93">
 <kw name="Click Products Page">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-02-11T10:36:08.259610" level="INFO">Clicking element '//*[@id="header"]/div/div/div/div[2]/div/ul/li[2]/a'.</msg>
+<msg time="2025-02-11T11:06:12.867841" level="INFO">Clicking element '//*[@id="header"]/div/div/div/div[2]/div/ul/li[2]/a'.</msg>
 <arg>//*[@id="header"]/div/div/div/div[2]/div/ul/li[2]/a</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-02-11T10:36:08.259213" elapsed="19.021766"/>
+<status status="PASS" start="2025-02-11T11:06:12.866986" elapsed="1.935842"/>
 </kw>
-<status status="PASS" start="2025-02-11T10:36:08.258788" elapsed="19.022604"/>
+<status status="PASS" start="2025-02-11T11:06:12.866144" elapsed="1.937324"/>
 </kw>
 <kw name="Input Search">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-02-11T10:36:27.284912" level="INFO">Typing text 'POLO' into text field '//*[@id="search_product"]'.</msg>
-<msg time="2025-02-11T10:36:27.310170" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=133.0.6943.59)
-Stacktrace:
-	GetHandleVerifier [0x00007FF6C9BA2EC5+28789]
-	(No symbol) [0x00007FF6C9B0F870]
-	(No symbol) [0x00007FF6C99A8F9A]
-	(No symbol) [0x00007FF6C9981573]
-	(No symbol) [0x00007FF6C9A2EE0E]
-	(No symbol) [0x00007FF6C9A4EFB2]
-	(No symbol) [0x00007FF6C9A26FF3]
-	(No symbol) [0x00007FF6C99EFF0E]
-	(No symbol) [0x00007FF6C99F1193]
-	GetHandleVerifier [0x00007FF6C9EED5FD+3479469]
-	GetHandleVerifier [0x00007FF6C9F071A3+3584851]
-	GetHandleVerifier [0x00007FF6C9EFC44D+3540477]
-	GetHandleVerifier [0x00007FF6C9C68B6A+838938]
-	(No symbol) [0x00007FF6C9B1A4EF]
-	(No symbol) [0x00007FF6C9B16954]
-	(No symbol) [0x00007FF6C9B16AF6]
-	(No symbol) [0x00007FF6C9B06499]
-	BaseThreadInitThunk [0x00007FFBF236E8D7+23]
-	RtlUserThreadStart [0x00007FFBF3D9BF2C+44]
-</msg>
-<msg time="2025-02-11T10:36:27.313711" level="FAIL">Element with locator '//*[@id="search_product"]' not found.</msg>
+<msg time="2025-02-11T11:06:14.809677" level="INFO">Typing text 'POLO' into text field '//*[@id="search_product"]'.</msg>
 <arg>//*[@id="search_product"]</arg>
 <arg>${SEARCH}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="FAIL" start="2025-02-11T10:36:27.284147" elapsed="0.041869">Element with locator '//*[@id="search_product"]' not found.</status>
+<status status="PASS" start="2025-02-11T11:06:14.807810" elapsed="0.095243"/>
 </kw>
 <arg>${SEARCH}</arg>
-<status status="FAIL" start="2025-02-11T10:36:27.282120" elapsed="0.044482">Element with locator '//*[@id="search_product"]' not found.</status>
+<status status="PASS" start="2025-02-11T11:06:14.806560" elapsed="0.097430"/>
 </kw>
 <kw name="Click Products Button">
-<status status="NOT RUN" start="2025-02-11T10:36:27.327941" elapsed="0.001863"/>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-02-11T11:06:14.906769" level="INFO">Clicking button '//*[@id="submit_search"]'.</msg>
+<arg>//*[@id="submit_search"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-11T11:06:14.905889" elapsed="1.441902"/>
+</kw>
+<status status="PASS" start="2025-02-11T11:06:14.904770" elapsed="1.443266"/>
 </kw>
 <kw name="Click Add Products Button">
-<status status="NOT RUN" start="2025-02-11T10:36:27.335609" elapsed="0.000282"/>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2025-02-11T11:06:16.350536" level="INFO">Executing JavaScript:
+document.body.style.zoom="50%"
+Without any arguments.</msg>
+<arg>document.body.style.zoom="50%"</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2025-02-11T11:06:16.349372" elapsed="0.038854"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-11T11:06:21.390129" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-11T11:06:16.389130" elapsed="5.001222"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-11T11:06:21.390743" level="INFO">Clicking element '/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a'.</msg>
+<msg time="2025-02-11T11:06:21.427240" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-12.png"&gt;&lt;img src="selenium-screenshot-12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-02-11T11:06:21.427646" level="FAIL">Element with locator '/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a' not found.</msg>
+<arg>/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2025-02-11T11:06:21.390533" elapsed="0.040474">Element with locator '/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a' not found.</status>
+</kw>
+<status status="FAIL" start="2025-02-11T11:06:16.348667" elapsed="5.082766">Element with locator '/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a' not found.</status>
 </kw>
 <kw name="Click Cart Page">
-<status status="NOT RUN" start="2025-02-11T10:36:27.336465" elapsed="0.000208"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.432184" elapsed="0.000149"/>
 </kw>
 <kw name="Click Login Page">
-<status status="NOT RUN" start="2025-02-11T10:36:27.337376" elapsed="0.000207"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.432760" elapsed="0.000121"/>
 </kw>
 <kw name="Input Name">
 <arg>${NAME}</arg>
-<status status="NOT RUN" start="2025-02-11T10:36:27.339628" elapsed="0.000293"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.433356" elapsed="0.000167"/>
 </kw>
 <kw name="Input Email">
 <arg>${EMAIL}</arg>
-<status status="NOT RUN" start="2025-02-11T10:36:27.340911" elapsed="0.000259"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.433960" elapsed="0.000139"/>
 </kw>
 <kw name="Click Signup">
-<status status="NOT RUN" start="2025-02-11T10:36:27.343100" elapsed="0.001192"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.434400" elapsed="0.000088"/>
 </kw>
 <kw name="Click Title">
-<status status="NOT RUN" start="2025-02-11T10:36:27.346192" elapsed="0.000286"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.434824" elapsed="0.000083"/>
 </kw>
 <kw name="Input Password">
 <arg>${PASSWORS}</arg>
-<status status="NOT RUN" start="2025-02-11T10:36:27.347691" elapsed="0.000328"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.435204" elapsed="0.000088"/>
 </kw>
 <kw name="Input Fname">
 <arg>${FNAME}</arg>
-<status status="NOT RUN" start="2025-02-11T10:36:27.351094" elapsed="0.000466"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.435543" elapsed="0.000087"/>
 </kw>
 <kw name="Input Lname">
 <arg>${LNAME}</arg>
-<status status="NOT RUN" start="2025-02-11T10:36:27.354042" elapsed="0.000334"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.435889" elapsed="0.000082"/>
 </kw>
 <kw name="Input Address">
 <arg>${ADDRESS}</arg>
-<status status="NOT RUN" start="2025-02-11T10:36:27.355279" elapsed="0.000229"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.436217" elapsed="0.000086"/>
 </kw>
 <kw name="Input State">
 <arg>${STATE}</arg>
-<status status="NOT RUN" start="2025-02-11T10:36:27.362027" elapsed="0.000410"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.436610" elapsed="0.000131"/>
 </kw>
 <kw name="Input City">
 <arg>${CITY}</arg>
-<status status="NOT RUN" start="2025-02-11T10:36:27.363698" elapsed="0.000270"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.437021" elapsed="0.000086"/>
 </kw>
 <kw name="Input Code">
 <arg>${CODE}</arg>
-<status status="NOT RUN" start="2025-02-11T10:36:27.366662" elapsed="0.001461"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.437361" elapsed="0.000087"/>
 </kw>
 <kw name="Input Number">
 <arg>${Number}</arg>
-<status status="NOT RUN" start="2025-02-11T10:36:27.372341" elapsed="0.000967"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.437770" elapsed="0.000088"/>
 </kw>
 <kw name="Click Create Account">
-<status status="NOT RUN" start="2025-02-11T10:36:27.375070" elapsed="0.000237"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.438137" elapsed="0.000081"/>
 </kw>
 <kw name="Click Cart Page Again">
-<status status="NOT RUN" start="2025-02-11T10:36:27.379731" elapsed="0.000897"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.438460" elapsed="0.000083"/>
 </kw>
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>Premium Polo T-Shirts</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="NOT RUN" start="2025-02-11T10:36:27.381935" elapsed="0.000273"/>
+<status status="NOT RUN" start="2025-02-11T11:06:21.438804" elapsed="0.000091"/>
 </kw>
-<status status="FAIL" start="2025-02-11T10:36:08.257008" elapsed="19.125969">Element with locator '//*[@id="search_product"]' not found.</status>
+<status status="FAIL" start="2025-02-11T11:06:12.859586" elapsed="8.579635">Element with locator '/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a' not found.</status>
 </test>
 <kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-02-11T10:36:27.390937" elapsed="2.155144"/>
+<status status="PASS" start="2025-02-11T11:06:21.440633" elapsed="2.876129"/>
 </kw>
-<status status="FAIL" start="2025-02-11T10:35:52.972634" elapsed="36.573610"/>
+<status status="FAIL" start="2025-02-11T11:06:03.446969" elapsed="20.870193"/>
 </suite>
 <statistics>
 <total>
@@ -142,29 +144,5 @@ Stacktrace:
 </suite>
 </statistics>
 <errors>
-<msg time="2025-02-11T10:36:27.310170" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=133.0.6943.59)
-Stacktrace:
-	GetHandleVerifier [0x00007FF6C9BA2EC5+28789]
-	(No symbol) [0x00007FF6C9B0F870]
-	(No symbol) [0x00007FF6C99A8F9A]
-	(No symbol) [0x00007FF6C9981573]
-	(No symbol) [0x00007FF6C9A2EE0E]
-	(No symbol) [0x00007FF6C9A4EFB2]
-	(No symbol) [0x00007FF6C9A26FF3]
-	(No symbol) [0x00007FF6C99EFF0E]
-	(No symbol) [0x00007FF6C99F1193]
-	GetHandleVerifier [0x00007FF6C9EED5FD+3479469]
-	GetHandleVerifier [0x00007FF6C9F071A3+3584851]
-	GetHandleVerifier [0x00007FF6C9EFC44D+3540477]
-	GetHandleVerifier [0x00007FF6C9C68B6A+838938]
-	(No symbol) [0x00007FF6C9B1A4EF]
-	(No symbol) [0x00007FF6C9B16954]
-	(No symbol) [0x00007FF6C9B16AF6]
-	(No symbol) [0x00007FF6C9B06499]
-	BaseThreadInitThunk [0x00007FFBF236E8D7+23]
-	RtlUserThreadStart [0x00007FFBF3D9BF2C+44]
-</msg>
 </errors>
 </robot>

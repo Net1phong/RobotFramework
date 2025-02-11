@@ -1,7 +1,7 @@
 *** Settings ***
 
 library    SeleniumLibrary 
-Suite Setup    Open Browser    https://automationexercise.com/    gc
+Suite Setup    Open Browser    https://automationexercise.com/
 Suite Teardown    Close Browser
 
 *** Variables ***
@@ -28,13 +28,15 @@ Click Products Button
     Click Button    //*[@id="submit_search"]
 
 Click Add Products Button
-    Click Button    /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a
+    Execute javascript       document.body.style.zoom="50%"
+    Sleep    3s
+    Click Element    /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a
 
 Click Cart Page
-    Click Button    //*[@id="header"]/div/div/div/div[2]/div/ul/li[3]/a
+    Click Element    //*[@id="header"]/div/div/div/div[2]/div/ul/li[3]/a
 
 Click Login Page
-    Click Button    //*[@id="header"]/div/div/div/div[2]/div/ul/li[4]/a
+    Click Element    //*[@id="header"]/div/div/div/div[2]/div/ul/li[4]/a
 
 Input Name
     [Arguments]    ${NAME}
@@ -46,9 +48,6 @@ Input Email
 
 Click Signup
     Click Button    //*[@id="form"]/div/div/div[3]/div/form/button
-
-Click Title
-    Click Button    //*[@id="id_gender1"]
 
 Input Password
     [Arguments]    ${PASSWORS}
@@ -86,7 +85,7 @@ Click Create Account
     Click Button    //*[@id="form"]/div/div/div/div[1]/form/button
 
 Click Cart Page Again
-    Click Button    //*[@id="header"]/div/div/div/div[2]/div/ul/li[3]/a
+    Click Element    //*[@id="header"]/div/div/div/div[2]/div/ul/li[3]/a
 *** Test Cases ***
 Test Value
     Click Products Page
@@ -98,7 +97,6 @@ Test Value
     Input Name    ${NAME}
     Input Email    ${EMAIL} 
     Click Signup
-    Click Title
     Input Password    ${PASSWORS}
     Input Fname    ${FNAME} 
     Input Lname    ${LNAME}

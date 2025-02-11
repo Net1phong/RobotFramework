@@ -1,10 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-02-11T10:35:54.117735" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-02-11T11:06:04.597816" rpa="false" schemaversion="5">
 <suite id="s1" name="RobotFramework" source="D:\lab_year2\RobotFramework">
 <suite id="s1-s1" name="Product" source="D:\lab_year2\RobotFramework\product.robot">
 <kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
-<msg time="2025-02-11T10:35:54.709387" level="INFO">Opening browser 'gc' to base url 'https://automationexercise.com/'.</msg>
+<msg time="2025-02-11T11:06:04.833826" level="INFO">Opening browser 'firefox' to base url 'https://automationexercise.com/'.</msg>
+<arg>https://automationexercise.com/</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-02-11T11:06:04.833427" elapsed="9.695160"/>
+</kw>
+<test id="s1-s1-t1" name="Test Value" line="93">
+<kw name="Click Products Page">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-11T11:06:14.535145" level="INFO">Clicking element '//*[@id="header"]/div/div/div/div[2]/div/ul/li[2]/a'.</msg>
+<arg>//*[@id="header"]/div/div/div/div[2]/div/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-11T11:06:14.532796" elapsed="2.338366"/>
+</kw>
+<status status="PASS" start="2025-02-11T11:06:14.531814" elapsed="2.340020"/>
+</kw>
+<kw name="Input Search">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-11T11:06:16.875886" level="INFO">Typing text 'POLO' into text field '//*[@id="search_product"]'.</msg>
+<arg>//*[@id="search_product"]</arg>
+<arg>${SEARCH}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-11T11:06:16.875116" elapsed="0.097962"/>
+</kw>
+<arg>${SEARCH}</arg>
+<status status="PASS" start="2025-02-11T11:06:16.873839" elapsed="0.099614"/>
+</kw>
+<kw name="Click Products Button">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-02-11T11:06:16.977768" level="INFO">Clicking button '//*[@id="submit_search"]'.</msg>
+<arg>//*[@id="submit_search"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-11T11:06:16.977082" elapsed="1.524260"/>
+</kw>
+<status status="PASS" start="2025-02-11T11:06:16.975669" elapsed="1.526014"/>
+</kw>
+<kw name="Click Add Products Button">
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2025-02-11T11:06:18.504588" level="INFO">Executing JavaScript:
+document.body.style.zoom="50%"
+Without any arguments.</msg>
+<arg>document.body.style.zoom="50%"</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2025-02-11T11:06:18.503535" elapsed="0.017265"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-11T11:06:23.521728" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-11T11:06:18.521031" elapsed="5.000943"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-11T11:06:23.522713" level="INFO">Clicking element '/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a'.</msg>
+<msg time="2025-02-11T11:06:23.558450" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-13.png"&gt;&lt;img src="selenium-screenshot-13.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-02-11T11:06:23.558879" level="FAIL">Element with locator '/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a' not found.</msg>
+<arg>/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="FAIL" start="2025-02-11T11:06:23.522174" elapsed="0.039787">Element with locator '/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a' not found.</status>
+</kw>
+<status status="FAIL" start="2025-02-11T11:06:18.502214" elapsed="5.059968">Element with locator '/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a' not found.</status>
+</kw>
+<kw name="Click Cart Page">
+<status status="NOT RUN" start="2025-02-11T11:06:23.562539" elapsed="0.000139"/>
+</kw>
+<kw name="Click Login Page">
+<status status="NOT RUN" start="2025-02-11T11:06:23.562939" elapsed="0.000100"/>
+</kw>
+<kw name="Input Name">
+<arg>${NAME}</arg>
+<status status="NOT RUN" start="2025-02-11T11:06:23.563279" elapsed="0.000087"/>
+</kw>
+<kw name="Input Email">
+<arg>${EMAIL}</arg>
+<status status="NOT RUN" start="2025-02-11T11:06:23.563614" elapsed="0.000086"/>
+</kw>
+<kw name="Click Signup">
+<status status="NOT RUN" start="2025-02-11T11:06:23.563951" elapsed="0.000085"/>
+</kw>
+<kw name="Click Title">
+<status status="NOT RUN" start="2025-02-11T11:06:23.564484" elapsed="0.000527"/>
+</kw>
+<kw name="Input Password">
+<arg>${PASSWORS}</arg>
+<status status="NOT RUN" start="2025-02-11T11:06:23.565271" elapsed="0.000098"/>
+</kw>
+<kw name="Input Fname">
+<arg>${FNAME}</arg>
+<status status="NOT RUN" start="2025-02-11T11:06:23.565635" elapsed="0.000107"/>
+</kw>
+<kw name="Input Lname">
+<arg>${LNAME}</arg>
+<status status="NOT RUN" start="2025-02-11T11:06:23.566011" elapsed="0.000089"/>
+</kw>
+<kw name="Input Address">
+<arg>${ADDRESS}</arg>
+<status status="NOT RUN" start="2025-02-11T11:06:23.566339" elapsed="0.000086"/>
+</kw>
+<kw name="Input State">
+<arg>${STATE}</arg>
+<status status="NOT RUN" start="2025-02-11T11:06:23.566589" elapsed="0.000081"/>
+</kw>
+<kw name="Input City">
+<arg>${CITY}</arg>
+<status status="NOT RUN" start="2025-02-11T11:06:23.566829" elapsed="0.000078"/>
+</kw>
+<kw name="Input Code">
+<arg>${CODE}</arg>
+<status status="NOT RUN" start="2025-02-11T11:06:23.567064" elapsed="0.000077"/>
+</kw>
+<kw name="Input Number">
+<arg>${Number}</arg>
+<status status="NOT RUN" start="2025-02-11T11:06:23.567417" elapsed="0.000087"/>
+</kw>
+<kw name="Click Create Account">
+<status status="NOT RUN" start="2025-02-11T11:06:23.567670" elapsed="0.000080"/>
+</kw>
+<kw name="Click Cart Page Again">
+<status status="NOT RUN" start="2025-02-11T11:06:23.567907" elapsed="0.000079"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Premium Polo T-Shirts</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="NOT RUN" start="2025-02-11T11:06:23.568142" elapsed="0.000098"/>
+</kw>
+<status status="FAIL" start="2025-02-11T11:06:14.529360" elapsed="9.039101">Element with locator '/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[1]/a' not found.</status>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-02-11T11:06:23.569943" elapsed="2.924723"/>
+</kw>
+<status status="FAIL" start="2025-02-11T11:06:04.623952" elapsed="21.870854"/>
+</suite>
+<status status="FAIL" start="2025-02-11T11:06:04.603014" elapsed="21.893600"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="RobotFramework" id="s1" pass="0" fail="1" skip="0">RobotFramework</stat>
+<stat name="Product" id="s1-s1" pass="0" fail="1" skip="0">RobotFramework.Product</stat>
+</suite>
+</statistics>
 <errors>
-<msg time="2025-02-11T10:36:26.422369" level="ERROR">Execution stopped by user.</msg>
 </errors>
 </robot>
