@@ -6,8 +6,8 @@ Suite Teardown    Close Browser
 
 *** Variables ***
 ${SEARCH}    Stylish Dress
-${NAME}      user9@gmail.co
-${EMAIL}     user9@gmail.co
+${NAME}      user11@gmail.co
+${EMAIL}     user11@gmail.co
 ${PASSWORS}  1234
 ${FNAME}     user1234
 ${LNAME}     narak
