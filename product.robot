@@ -6,8 +6,8 @@ Suite Teardown    Close Browser
 
 *** Variables ***
 ${SEARCH}    Stylish Dress
-${NAME}      user12@gmail.co
-${EMAIL}     user12@gmail.co
+${NAME}      user99@gmail.co
+${EMAIL}     user99@gmail.co
 ${PASSWORS}  1234
 ${FNAME}     user1234
 ${LNAME}     narak
@@ -88,6 +88,9 @@ Input Number
 
 Click Create Account
     Click Button    //*[@id="form"]/div/div/div/div[1]/form/button
+
+Click Cart Page again
+    Click Element    //*[@id="header"]/div/div/div/div[2]/div/ul/li[3]/a
 *** Test Cases ***
 Test Value
     Click Products Page
@@ -116,7 +119,7 @@ Test Value
     Input Code    ${CODE} 
     Input Number    ${Number} 
     Click Create Account
-    Click Cart Page
+    Click Cart Page again
     Wait Until Page Contains    text=Stylish Dress
 
     
